@@ -48,7 +48,7 @@ echo " in branch b2 branching world" >> lab6.c
 git add lab5.c
 git add lab6.c
 git commit -m " lab5 and lab 6 in branch b2"
-git checkout master
+git checkout main
 git diff main..b1
 git merge b1
 
